@@ -1,0 +1,8 @@
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.CommonUtilities\bin\Debug\GIAF.CommonUtilities.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.CommonUtilities\bin\Debug\GIAF.CommonUtilities.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.CommonUtilities\obj\Debug\GIAF.CommonUtilities.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.CommonUtilities\obj\Debug\GIAF.CommonUtilities.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.CommonUtilities\bin\Debug\GIAF.CommonUtilities.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.CommonUtilities\bin\Debug\GIAF.CommonUtilities.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.CommonUtilities\obj\Debug\GIAF.CommonUtilities.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.CommonUtilities\obj\Debug\GIAF.CommonUtilities.pdb

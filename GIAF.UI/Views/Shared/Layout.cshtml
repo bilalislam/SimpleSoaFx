@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    
+    <!-- CSS -->
+    <link href="/Content/css/main.css" rel="stylesheet" />
+    
+    <!-- Jquery Validation -->
+    <script src="/Scripts/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.unobtrusive-ajax.min.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.validate.unobtrusive.min.js" type="text/javascript"></script>
+    
+    <!-- JS -->
+    <script src="/Content/js/main.js"></script>
+</head>
+    <body>
+        <div class="layoutTable w1000">
+            <div style="height:20px;"></div>
+            <div class="navbg">
+                <ul>
+                    <li><a href="/" class="l1">@Resources.Resource.HomePage</a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            @RenderBody()
+            <div class="footer-ghost"></div>
+        </div>
+        
+        <footer>
+            <div class="bg w1000">
+                Copyright @DateTime.Now.Year 
+            </div>
+        </footer>
+
+        @Html.Partial("_Alert")
+    </body>
+</html>

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{61796D33-0BB1-417F-A6E5-BD18038F79A8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GIAF.Entity</RootNamespace>
+    <AssemblyName>GIAF.Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.0.2\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.0.2\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AH_USER.cs">
+      <DependentUpon>ModelContainer.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AH_USERGROUP_PERM.cs">
+      <DependentUpon>ModelContainer.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AH_USER_GROUP.cs">
+      <DependentUpon>ModelContainer.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DEPARTMENTS.cs">
+      <DependentUpon>ModelContainer.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GENERAL_PARAMETER.cs">
+      <DependentUpon>ModelContainer.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HOSPITALS.cs">
+      <DependentUpon>ModelContainer.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MLIST_NEW.cs">
+      <DependentUpon>ModelContainer.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelContainer.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelContainer.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelContainer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelContainer.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelContainer.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelContainer.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="PATIENTS.cs">
+      <DependentUpon>ModelContainer.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RECS.cs">
+      <DependentUpon>ModelContainer.tt</DependentUpon>
+    </Compile>
+    <Compile Include="REC_STATE.cs">
+      <DependentUpon>ModelContainer.tt</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTDESC.cs">
+      <DependentUpon>ModelContainer.tt</DependentUpon>
+    </Compile>
+    <Compile Include="REPORT_COLUMNS.cs">
+      <DependentUpon>ModelContainer.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TEMPLATE_SUBSTITUTION.cs">
+      <DependentUpon>ModelContainer.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TRANS.cs">
+      <DependentUpon>ModelContainer.tt</DependentUpon>
+    </Compile>
+    <Compile Include="USERS.cs">
+      <DependentUpon>ModelContainer.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <EntityDeploy Include="ModelContainer.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModelContainer.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ModelContainer.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelContainer.edmx</DependentUpon>
+      <LastGenOutput>ModelContainer.Context.cs</LastGenOutput>
+    </None>
+    <None Include="ModelContainer.edmx.diagram">
+      <DependentUpon>ModelContainer.edmx</DependentUpon>
+    </None>
+    <None Include="ModelContainer.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelContainer.edmx</DependentUpon>
+      <LastGenOutput>ModelContainer.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

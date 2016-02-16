@@ -1,0 +1,10 @@
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.DTOs\bin\Debug\GIAF.DTOs.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.DTOs\bin\Debug\GIAF.DTOs.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.DTOs\obj\Debug\GIAF.DTOs.dll
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.DTOs\obj\Debug\GIAF.DTOs.pdb
+C:\Users\BIM\Documents\Visual Studio 2012\Projects\GI.Application.Framework\GIAF.DTOs\obj\Debug\GIAF.DTOs.csprojResolveAssemblyReference.cache
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.DTOs\bin\Debug\GIAF.DTOs.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.DTOs\bin\Debug\GIAF.DTOs.pdb
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.DTOs\obj\Debug\GIAF.DTOs.csprojResolveAssemblyReference.cache
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.DTOs\obj\Debug\GIAF.DTOs.dll
+E:\BILAL ISLAM\KocSistem\GI.Application.Framework\GIAF.DTOs\obj\Debug\GIAF.DTOs.pdb

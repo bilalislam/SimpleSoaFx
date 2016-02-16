@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b9877eaa02874071abf99866381212f4" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.AH_USER" Width="1.5" PointX="10.5" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.AH_USER_GROUP" Width="1.5" PointX="5.25" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.AH_USERGROUP_PERM" Width="1.5" PointX="7.5" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DEPARTMENTS" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.GENERAL_PARAMETER" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.HOSPITALS" Width="1.5" PointX="8.25" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.MLIST_NEW" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PATIENTS" Width="1.5" PointX="8.25" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.REC_STATE" Width="1.5" PointX="8.25" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RECS" Width="1.5" PointX="10.5" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.REPORT_COLUMNS" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.REPORTDESC" Width="1.5" PointX="5.25" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.TEMPLATE_SUBSTITUTION" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.TRANS" Width="1.5" PointX="12.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.USERS" Width="1.5" PointX="3" PointY="17.875" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_AHUSER_AH_USERGROUP" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_TRANS_AHUSER" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_USERGROUPPERM_USERGROUP" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_USERGROUPPERM_DEPARTMENTS" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_USERGROUPPERM_REPORTDESC" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_RECS_DEPARTMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_USERS_REF_DEPTS" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_RECS_HOSPITAL" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_RECS_PATIENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_RECS_RECSTATE" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_RECS_DOCTOR" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_RECS_REPORTDESC" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_TRANS_RECS" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.USER_REPORTS" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
